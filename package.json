@@ -1,11 +1,24 @@
 {
   "name": "v-scroll",
-  "version": "1.0.0",
+  "version": "0.1.8",
   "description": "vue滚动指令",
-  "main": "index.js",
+  "main": "lib/v-scroll.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olyy111/v-scroll"
+  },
+  "dependencies": {
+    "better-scroll": "^0.1.15",
+    "vue": "^2.2.6"
+  },
+  "author": "olyy",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "scroll",
+    "directive"
+  ]
 }
